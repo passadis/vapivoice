@@ -41,8 +41,8 @@ export default function VapiWrapper({ mode, assistantId, publicKey }: VapiWrappe
       position="bottom-right"
       radius="large"
       base-color="#020617"
-      accent-color="#22C55E"
-      button-base-color="#22C55E"
+      accent-color="#0b5a28ff"
+      button-base-color="#186e37ff"
       button-accent-color="#020617"
       main-label={mode === 'voice' ? "KYC Voice Agent" : "KYC Chat Agent"}
       start-button-text={mode === 'voice' ? "Start Call" : "Start Chat"}
